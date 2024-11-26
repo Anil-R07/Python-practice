@@ -32,3 +32,7 @@ print(i)
 
 # Exponential (**)
 print(e**f)
+
+# BODMOS
+m = a+b-a/e+f*h
+print (m)
