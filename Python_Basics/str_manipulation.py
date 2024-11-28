@@ -11,6 +11,7 @@ print(string.strip())
 # replace 
 name = "John" 
 print(name.replace("John", "Joseph"))
+print(name) #o/p is John because after replace  it will not update the value.
 
 # Accessing string characters 
 print(string[5])
