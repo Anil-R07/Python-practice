@@ -3,6 +3,9 @@ name = "Anil"      # string
 age = 29           # Int 
 height = 5.11      # Float 
 is_employed = True # bool
+x = None           # None data type
+
+print(x)
 
 print(name)
 print(type(name))
