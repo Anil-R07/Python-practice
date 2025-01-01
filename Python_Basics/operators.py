@@ -31,5 +31,6 @@ p = 10
 q = 20
 r = 25
 
-print(p > 5 and r > 10)  # True
-print(p > 10 or r > 10)  
+print(p > 5 and r > 10)  # True since both condition matches 
+print(p > 10 or r > 10)  # True since any 1 condition matches
+print(not(r == 25)) 
