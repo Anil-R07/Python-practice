@@ -1,6 +1,9 @@
 fruits = ["apple", "banana", "cherry", "orange"]  #declaring th list 
 print(fruits)  #print the list 
 
+length = len(fruits)
+print(length)
+
 fruits.append("water melon") #adding a new fruit to the list
 print(fruits)
 
@@ -15,3 +18,9 @@ print(fruits)
 
 fruits[2] = "pineapple"
 print(fruits)
+
+fruits.reverse()  #reverse a list
+print(fruits)
+
+index = fruits.index("mango")  #getting the index of watermelon
+print(index)
