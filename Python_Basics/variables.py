@@ -27,5 +27,3 @@ print(int(A)+age)
 #reassignment 
 age = 30
 print(age)
-
-#
