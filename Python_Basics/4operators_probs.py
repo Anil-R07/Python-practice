@@ -15,3 +15,6 @@ print(f"The provided value/values are lesser than 10: {d}")
 
 e = str(not(a > b))
 print(f"The first provided value is not greater than the second value: {e}")
+
+f = str(a==b)
+print(f"The provided numbers are equal: {f}")
