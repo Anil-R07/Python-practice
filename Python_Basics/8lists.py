@@ -4,6 +4,8 @@ print(fruits)  #print the list
 length = len(fruits)
 print(length)
 
+print (fruits[0]) #getting the specific element from a list 
+
 fruits.append("water melon") #adding a new fruit to the list
 print(fruits)
 
