@@ -23,3 +23,10 @@ print(tuple_repeat)
 
 number_repeat = (1,2,3,4) * 2
 print(number_repeat)
+
+#checking membership (is the element present in tupple)
+print("cherry" in fruits) #O/P true
+
+#Tupple methods 
+print(fruits.count("apple")) #O/P 1
+print(fruits.index("cherry")) #O/P 1
