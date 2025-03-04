@@ -30,3 +30,6 @@ print("cherry" in fruits) #O/P true
 #Tupple methods 
 print(fruits.count("apple")) #O/P 1
 print(fruits.index("cherry")) #O/P 1
+
+fruits.add("sapota")
+print(fruits) #we can not add an element to tupple
