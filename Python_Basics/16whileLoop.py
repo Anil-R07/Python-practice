@@ -1,4 +1,5 @@
 #print 1 to 10
+
 n = 1
 while n<=10:
     print(n)
@@ -58,3 +59,18 @@ while available_seats > 0:
     else:
         print("No bookings made")
 print("All the available seats are booked!")
+
+
+#Snack simulator 
+snacks_available = 3 
+money = 10
+while snacks_available > 0 and money > 0:
+    print(f"snacks available: {snacks_available}, money available: {money}")
+    buy = input("Do you want to purchase the snack for Rs 5? Yes/No ").lower()
+    if buy == "yes" and money >= 5:
+        snacks_available -= 1
+        money -= 5
+        print("Snacks purchased")
+    else:
+        print("No purchase made")
+print("Either no snacks available or you are run out of money.")
