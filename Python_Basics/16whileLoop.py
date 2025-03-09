@@ -46,3 +46,15 @@ while i < len(days):
     else:
         print(f"{days[i]}: 9 to 5")
     i += 1
+
+#Bus ticket booking 
+available_seats = 5
+while available_seats > 0:
+    print(f"{available_seats}: seats available")
+    booking = input("Do you want to book a seat yes/no: ").lower()
+    if booking == "yes":
+        available_seats -= 1
+        print(f"Seat booked!")
+    else:
+        print("No bookings made")
+print("All the available seats are booked!")
