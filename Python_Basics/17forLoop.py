@@ -33,7 +33,7 @@ for team in ipl:
 for tata in ipl:
     if tata == "CSK":
         continue
-    print(tata)'
+    print(tata)
 
 #using Enumerate 
 for list, team in enumerate(ipl):
