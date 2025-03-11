@@ -38,3 +38,20 @@ for tata in ipl:
 #using Enumerate 
 for list, team in enumerate(ipl):
     print(f"team {list+1}: {team}")
+
+#else in loop 
+for team in ipl:
+    print(team)
+else:
+    print("No teams found")
+
+#chacolate distribution 
+chacolates = 10
+friends = ["Rahul", "Sneha", "Aman", "Priya"]
+
+for friend in friends:
+    if chacolates > 0:
+        print(f"{friend} gets a chacolate!")
+        laddus -= 1
+    else:
+        print("No chacolate left!")
