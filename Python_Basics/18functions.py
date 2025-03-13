@@ -37,3 +37,8 @@ def multiply(a, b):
     return (a*b)
 result = multiply(2, 2)
 print(result)
+
+#keyword argument
+def details(name, age):
+    print(f"Name: {name}, Age: {age}")
+details(name = "Anil", age = 29)
