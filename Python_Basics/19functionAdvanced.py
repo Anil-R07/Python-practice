@@ -1,4 +1,4 @@
-#args kwargs 
+#args
 def add (*numbers):
     return sum(numbers) # using sum inbuilt function
 sum = add(1,2,3)
@@ -10,3 +10,9 @@ def addition(*num):
         sum += numbers
     print(sum)
 addition(1,3,4,5)
+
+#kwargs
+def team_info(**info):
+    for key, value in info.items():
+        print(f"{key}:{value}")
+team_info(name="RCB", place="Bengaluru", captain="Kohli", viceCaptain="Deviliers")
