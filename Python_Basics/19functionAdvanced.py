@@ -39,4 +39,3 @@ def outer(name):
         print(f"Hello {name} this is inner function")
     inner()
 outer("Anil")
-    
