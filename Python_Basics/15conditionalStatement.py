@@ -1,6 +1,5 @@
 #check if the given number is even 
 number = int(input("Enter the number"))
-
 if number %2 == 0:
     print("Given number is Even")
 else:
@@ -8,7 +7,6 @@ else:
 
 
 age = int(input("Enter your age: "))
-
 if age >= 18:
     print("You are elegible to vote")
 else:
@@ -38,4 +36,14 @@ if day == "Sunday":
             print("too sunny lets go another day")
     else:
         print("its raining lets plan another day")
-        
+
+#problem 1
+# Program to declare eligibility for bus pass
+def buspass(age):
+    if age <= 5:
+        print("Bus pass is free below 5 years")
+    elif age >= 60:
+        print("You are applicable for senior sitizen discount")  
+    elif age > 5 and age < 60:
+        print("You have to pay full amount") 
+buspass(int(input("Please enter your age: ")))
