@@ -1,5 +1,4 @@
 #print 1 to 10
-
 n = 1
 while n<=10:
     print(n)
@@ -74,3 +73,38 @@ while snacks_available > 0 and money > 0:
     else:
         print("No purchase made")
 print("Either no snacks available or you are run out of money.")
+
+#count from 1 to 10
+def count():
+    num = 1
+    while num <=10:
+        print(num)
+        num +=1
+count()
+
+#odd numbers 
+def odd():
+    num = 1
+    while num <=20:
+        if num % 2 == 1:
+            print(num)
+        num +=1
+odd()
+
+#even numbers
+def even():
+    num = 1
+    while num <=20:
+        if num % 2 == 0:
+            print(num)
+        num +=1
+even()
+
+#countdown for happy new year
+def happyNewYear():
+    num = 10
+    while num > 0:
+        print(num)
+        num -=1
+    print("Happy new year!")
+happyNewYear()
