@@ -1,4 +1,4 @@
-for i in range(3):
+'''for i in range(3):
     for j in range(2):
         print(i, j)
 
@@ -29,4 +29,15 @@ for i in range (11):
     print(square)
 
 #Find the sum of numbers from 1 to N
+n = int(input("Enter number: "))
+sum = 0
+for i in range(1, n+1):
+    sum = sum+i
+print(sum)
+'''
+#Print multiplication table of a number
+# 5 x 1 = 5
+n = int(input("Enter number: "))
 
+for i in range (1, 11):
+    print(f"{n} x {i} = {n*i}")
