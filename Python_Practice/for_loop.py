@@ -34,10 +34,18 @@ sum = 0
 for i in range(1, n+1):
     sum = sum+i
 print(sum)
-'''
+
 #Print multiplication table of a number
 # 5 x 1 = 5
 n = int(input("Enter number: "))
 
 for i in range (1, 11):
     print(f"{n} x {i} = {n*i}")
+'''
+#Count how many numbers between 1 and 100 are divisible by 3
+count = 0
+for i in range (1, 101):
+    if i% 3 == 0:
+        count = count + 1
+print(count)
+    
