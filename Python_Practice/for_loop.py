@@ -48,10 +48,27 @@ for i in range (1, 101):
     if i% 3 == 0:
         count = count + 1
 print(count)
-'''
+
 #Find the Factorial number 
 n = int(input("Enter the number: "))
 fact = 1 
 for i in range (1, n+1):
     fact = fact * i
 print(fact)
+
+for i in range(1,4):
+    for j in range(1,4):
+        print(i*j)
+
+for i in range(3):
+    print(i)
+else:
+    print("Loop finished")
+
+for i in range(3):
+    if i == 1:
+        break
+    print(i)
+else:
+    print("Loop finished")
+'''
